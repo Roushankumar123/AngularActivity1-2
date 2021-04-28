@@ -1,0 +1,18 @@
+<div>
+    <span>Activity1:-</span> 
+</div>  
+ <br>
+<button type="button" (click)="minus()">-</button>
+<input type="text" [value]="quantity" placeholder="0">
+<button type="button" (click)="plus()">+</button><br><br>
+<button type="button" (click)="onclick()">click Me</button> <br>
+<p>{{msg}}</p>
+<p>{{count}}</p><hr>
+<div>
+<span>Activity2:-</span>
+</div>
+<button type="button" (click)="decrement()">-</button>
+<input type="text"[(ngModel)]="foodquantity" placeholder="0">
+
+<button type="button" (click)="increment()">+</button>
+
